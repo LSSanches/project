@@ -9,7 +9,7 @@ export default function App() {
       <div className="container">
         <Weather city="Mississauga" />
         <footer>
-          This project was created by LSanches and its open-sourced at{" "}
+          Created by LSanches and open-sourced at{" "}
           <a
             href="https://github.com/LSSanches/project"
             target="_blank"
