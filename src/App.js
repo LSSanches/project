@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather city="Mississauga" />
+        <Weather city="Toronto" />
         <footer>
           Created by LSanches and open-sourced at{" "}
           <a
@@ -16,7 +16,7 @@ export default function App() {
             rel="noreferrer"
           >
             GitHub
-          </a>
+          </a>.
         </footer>
       </div>
     </div>

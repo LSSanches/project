@@ -6,6 +6,7 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1 className="text-capitalize">{props.data.city}</h1>
+      <h6>Last update: </h6>
       <ul>
         <li>
           <FormattedDate date={props.data.date} />
@@ -20,6 +21,7 @@ export default function WeatherInfo(props) {
               alt={props.data.description}
               className="float-left"
             />
+
             <div className="float-left">
               <Temperature celsius={props.data.temperature} />
             </div>

@@ -1,19 +1,27 @@
 .Weather {
   border: 1px solid #dadde1;
-  border-radius: 4px;
+  border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 16px;
-
+  padding: 30px;
   color: rgb(135, 135, 135);
+    background: linear-gradient(
+    67.7deg,
+    rgb(252, 185, 125) -0.9%,
+    rgb(245, 231, 106) 22.8%,
+    rgb(160, 236, 208) 50.3%,
+    rgb(57, 178, 209) 75.5%,
+    rgb(183, 174, 193) 100.2%
+  );
 }
 
 .Weather h1 {
   color: #878787;
   display: block;
   margin: 20px 0 0;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 29px;
+  text-align: center;
 }
 
 .Weather ul {
