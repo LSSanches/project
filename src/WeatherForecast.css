@@ -1,0 +1,18 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.min {
+  opacity: 0.6;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.max,
+.img {
+  text-align: center;
+}
+
+.daily {
+  margin-left: 16px;
+}

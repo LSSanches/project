@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 30px;
   color: rgb(135, 135, 135);
-    background: linear-gradient(
+  background: linear-gradient(
     67.7deg,
     rgb(252, 185, 125) -0.9%,
     rgb(245, 231, 106) 22.8%,
@@ -27,6 +27,7 @@
 .Weather ul {
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
 }
 
 .Weather li {

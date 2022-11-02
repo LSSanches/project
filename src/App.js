@@ -7,16 +7,33 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather city="Toronto" />
+        <Weather city="New York" />
         <footer>
-          Created by LSanches and open-sourced at{" "}
+          Created by{" "}
+          <a
+            href="www.linkedin.com/in/laurassanches"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LSanches
+          </a>
+          , open-sourced on{" "}
           <a
             href="https://github.com/LSSanches/project"
             target="_blank"
             rel="noreferrer"
           >
             GitHub
-          </a>.
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://weatherappprojectbylaura.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
