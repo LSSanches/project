@@ -1,9 +1,15 @@
 .App {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+}
+
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
 }
